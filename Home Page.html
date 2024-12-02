@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungermate-bite for hunger, bite to hunger</title>
+    <style>
+        body {
+            background: radial-gradient(circle,#E7D2B2,#F09B84);
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff9671;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            background-color: #ffe4d9;
+            margin: 10px 0;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .slider img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ff9671;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .navbar a:hover {
+            background-color: #ffffff;
+            color: #ff9671;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 250px; /* Increased width */
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            color: #ff9671;
+        }
+
+        .badge {
+            margin: 10px 0;
+            display: block;
+            color: #ff9800;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff9671;
+            color: white;
+        }
+
+        .contact {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        .profile-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 1.2rem;
+            color: #ff9671;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HUNGERMATE</h1>
+    </header>
+
+    <div class="slider">
+        <img src="c:\Users\Lenovo\Desktop\prepared-meal-delivery-service-set-of-black-plastic-containers-with-tasty-food-2G7DJD7.jpg" alt="food image">
+    </div>
+
+    <div class="navbar">
+        <a href="#restaurants">Restaurants</a>
+    </div>
+
+    <div class="card-container" id="restaurants">
+        <a class="card" href="Restaurant 1.html">
+            <img src="c:\Users\Lenovo\Desktop\images\delicious-lunch-meat-vegetables-restaurant_338491-4267.avif" alt="Restaurant 1">
+            <h3>Restaurant 1</h3>
+            <p>Address</p>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+        </a>
+        <a class="card" href="Restaurant 2.html">
+            <img src="c:\Users\Lenovo\Desktop\images\istockphoto-517168031-612x612.jpg" alt="Restaurant 2">
+            <h3>Restaurant 2</h3>
+            <p>Address</p>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+        </a>
+        <a class="card" href="Restaurant 3.html">
+            <img src="c:\Users\Lenovo\Desktop\images\restaurant-food-restaurant-menu-photos-menu_830198-777.avif" alt="Restaurant 3">
+            <h3>Restaurant 3</h3>
+            <p>Address</p>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+        </a>
+        <a class="card" href="Restaurant 4.html">
+            <img src="c:\Users\Lenovo\Desktop\images\istockphoto-104704117-612x612.jpg" alt="Restaurant 4">
+            <h3>Restaurant 4</h3>
+            <p>Address</p>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+            <span class="star">⭐</span>
+        </a>
+    </div>
+
+    <h2 style="text-align: center;">Our Top Restaurants</h2>
+    <div class="card-container">
+        <a class="card" href="top_restaurant1.html">
+            <img src="c:\Users\Lenovo\Desktop\images\premium_photo-1671394138398-fe1ce5e5b03b.jpg" alt="Restaurant Name">
+            <h3>Restaurant Name</h3>
+            <span class="badge">Badges</span>
+        </a>
+        <a class="card" href="top_restaurant2.html">
+            <img src="c:\Users\Lenovo\Desktop\images\istockphoto-104704117-612x612.jpg" alt="Restaurant Name">
+            <h3>Restaurant Name</h3>
+            <span class="badge">Badges</span>
+        </a>
+        <a class="card" href="top_restaurant1.html">
+            <img src="c:\Users\Lenovo\Desktop\images\restaurant-food-restaurant-menu-photos-menu_830198-777.avif" alt="Restaurant Name">
+            <h3>Restaurant Name</h3>
+            <span class="badge">Badges</span>
+        </a>
+    </div>
+
+    <div class="contact">
+        <p>To become a member and save many more lives, connect with us at:</p>
+        <p>Email: abc@gmail.com</p>
+        <p>Phone: 9876543210</p>
+        <p>Hotline: 1800-987-5432</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Food Rescue Hub. All Rights Reserved.
+    </footer>
+
+    <div class="profile-icon">H</div>
+</body>
+</html>
